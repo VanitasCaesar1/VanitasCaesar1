@@ -16,4 +16,4 @@ Open source:
 - [ButterUI](https://github.com/VanitasCaesar1/ButterUI): React Native motion kit and agent skills
 - [murkysql](https://github.com/VanitasCaesar1/murkysql): vector search for SQLite, in Rust
 
-Open to founding-engineer and senior React Native roles, remote.
+Graduated (BCA) in April 2025. Open to founding-engineer, React Native / mobile and full-stack roles, remote. LinkedIn: [chintapatla-chakravarthi](https://www.linkedin.com/in/chintapatla-chakravarthi)
