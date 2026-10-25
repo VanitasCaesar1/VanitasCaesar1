@@ -1,51 +1,48 @@
-<a href="https://vanitascaesar1.github.io"><img src="assets/banner.png" alt="Chakravarthi Chintapatla: full-stack and mobile engineer, co-founder and CTO at Treato" width="100%"></a>
+<a href="https://vanitascaesar1.github.io"><img src="assets/hero.svg" width="100%" alt="Welcome to Chakravarthi's Homepage! A 1997 Netscape window: full-stack and mobile engineer, co-founder and CTO at Treato, open to work."></a>
 
 <p align="center">
-  <a href="https://vanitascaesar1.github.io"><b>Homepage</b></a> ·
+  <a href="https://vanitascaesar1.github.io"><b>Enter my homepage</b></a> ·
+  <a href="https://vanitascaesar1.github.io/resume.html">Resume</a> ·
   <a href="https://www.linkedin.com/in/chintapatla-chakravarthi">LinkedIn</a> ·
   <a href="mailto:chakravarthi8a2ss@gmail.com">Email</a> ·
-  <a href="https://vanitascaesar1.github.io/resume.html">Resume</a>
+  <a href="#sign-my-guestbook">Sign my guestbook</a>
 </p>
 
-Hi, I'm Chakravarthi. I build products end to end: mobile apps, web apps, the backend services behind them and the servers they run on.
+Hi! I'm Chakravarthi, from Kakinada, India. I build products end to end, from the Rust service that signs you in to the app in your hand. Almost everything I write lives in private Treato repos, so on this page it shows up as private contributions.
 
-I'm co-founder and CTO of **[Treato](https://treatoapp.com)**, a care platform for India where families, doctors and clinics share one health record. I'm its only engineer, with about 3,700 commits since March 2025. Almost all of it lives in private repos, so here it shows up as private contributions.
+**Open to founding-engineer, React Native and full-stack roles**, remote or relocating.
 
-**Open to founding-engineer, React Native and full-stack roles, remote or relocating.**
+<p align="center"><img src="https://komarev.com/ghpvc/?username=VanitasCaesar1&style=for-the-badge&color=000080&label=YOU+ARE+VISITOR" alt="Visitor counter"></p>
 
-## What I built at Treato
+## What I'm building
 
-<img src="assets/treato-screens.jpg" alt="Four screens from the Treato Health app: home, records, a report explained by Maya, and Maya's visit brief" width="100%">
+<a href="https://treatoapp.com"><img src="assets/treato.svg" width="100%" alt="Treato: a care platform for India. I'm co-founder, CTO and the only engineer. React Native, Go, Rust, Elixir, LiveKit, Claude, Next.js, Tauri and Docker."></a>
 
-| Part | Stack | What it does |
-| --- | --- | --- |
-| Mobile | React Native, Expo | Patient and doctor apps: booking, family records, chat, LiveKit video visits |
-| API | Go (Fiber), PostgreSQL | The core API: about 360 migrations, REST plus read-only GraphQL, RabbitMQ between services |
-| Auth | Rust | Phone OTP and passkeys, one identity across patient, doctor and clinic roles |
-| Real time | Elixir, Phoenix, LiveKit | Chat, and self-hosted video for consultations |
-| AI | Claude | Maya explains reports in plain words, keeps a health diary and drafts visit briefs. It never diagnoses. |
-| Web and desktop | Next.js, Tauri | The website with a public doctor directory, and a front-desk app for clinics |
-| Infra | Docker, Dokploy, Linux | Self-hosted on a VPS with Elasticsearch and Dragonfly. I own deploys and backups. |
+## Cool stuff I made
 
-## Open source
+<p>
+  <a href="https://github.com/VanitasCaesar1/expo-hot-toast"><img src="assets/card-expo-hot-toast.svg" width="49%" alt="expo-hot-toast: the react-hot-toast API for Expo, with Liquid Glass on iOS 26 and Material 3 on Android"></a>
+  <a href="https://github.com/VanitasCaesar1/ZVault"><img src="assets/card-zvault.svg" width="49%" alt="ZVault: a Rust secrets manager that keeps API keys away from AI coding tools"></a>
+  <a href="https://github.com/VanitasCaesar1/ButterUI"><img src="assets/card-butterui.svg" width="49%" alt="ButterUI: screen transitions and native portals for React Native, as agent skills"></a>
+  <a href="https://github.com/VanitasCaesar1/murkysql"><img src="assets/card-murkysql.svg" width="49%" alt="murkysql: vector search inside SQLite, in Rust"></a>
+  <a href="https://github.com/VanitasCaesar1/seer"><img src="assets/card-seer.svg" width="49%" alt="Seer: a privacy-first Android keyboard with on-device suggestions"></a>
+  <a href="https://vanitascaesar1.github.io"><img src="assets/card-homepage.svg" width="49%" alt="My homepage: a portfolio hand-coded like it's 1997"></a>
+</p>
 
-**[expo-hot-toast](https://github.com/VanitasCaesar1/expo-hot-toast)**: the react-hot-toast API for Expo and React Native. Real Liquid Glass on iOS 26, Material 3 snackbars on Android, frosted glass on the web. [Try the demo](https://vanitascaesar1.github.io/expo-hot-toast/).
+## Powered by
 
-<a href="https://github.com/VanitasCaesar1/expo-hot-toast"><img src="https://raw.githubusercontent.com/VanitasCaesar1/expo-hot-toast/main/docs/media/demo.gif" alt="expo-hot-toast demo: toasts in Liquid Glass on iOS and on Android" width="520"></a>
+<img src="assets/badges.svg" width="580" alt="Powered by Go, Rust, Elixir, Expo, TypeScript, PostgreSQL, Kotlin, Docker and Claude. Best viewed in any browser.">
 
-| Project | Language | What it does |
-| --- | --- | --- |
-| [ZVault](https://github.com/VanitasCaesar1/ZVault) | Rust | A secrets manager that keeps API keys away from AI coding tools. AES-256-GCM, installed from a Homebrew tap. |
-| [ButterUI](https://github.com/VanitasCaesar1/ButterUI) | TypeScript | Smooth screen transitions and native portals for React Native, packaged as agent skills for Claude Code, Cursor and Codex. |
-| [murkysql](https://github.com/VanitasCaesar1/murkysql) | Rust | Vector search inside SQLite, with HNSW and IVF indexes. |
-| [Seer](https://github.com/VanitasCaesar1/seer) | Kotlin | A privacy-first Android keyboard. Suggestions stay on the device and it has no internet permission. |
+## Sign my guestbook
 
-## Toolbox
+Open an issue titled **Guestbook: your message** and a GitHub Action writes you into this page within a minute. Links and formatting are stripped, so keep it to words.
 
-<a href="https://vanitascaesar1.github.io"><img src="https://skillicons.dev/icons?i=ts,react,go,rust,elixir,kotlin,postgres,nextjs,tauri,docker,rabbitmq,elasticsearch,linux&perline=13" alt="TypeScript, React and React Native, Go, Rust, Elixir, Kotlin, PostgreSQL, Next.js, Tauri, Docker, RabbitMQ, Elasticsearch, Linux"></a>
+<p><a href="https://github.com/VanitasCaesar1/VanitasCaesar1/issues/new?title=Guestbook%3A%20&body=Write%20your%20message%20in%20the%20title%20after%20%22Guestbook%3A%22.%20It%20shows%20up%20on%20my%20profile%2C%20so%20keep%20it%20friendly."><b>&gt;&gt; Sign the guestbook &lt;&lt;</b></a></p>
 
-I work fast with AI coding agents and I own the parts they can't do: system design, product judgment and reviewing every line before it ships.
+<!-- GUESTBOOK:START -->
+_No signatures yet. Be the first!_
+<!-- GUESTBOOK:END -->
 
 ---
 
-<sub>BCA, Adikavi Nannaya University (2025). Kakinada, India. Speaks English, Telugu, Hindi and Gujarati. Sign my guestbook at <a href="https://vanitascaesar1.github.io/#guestbook">vanitascaesar1.github.io</a>.</sub>
+<p align="center"><sub>&lt;&lt; <a href="https://vanitascaesar1.github.io">homepage</a> · <a href="https://www.linkedin.com/in/chintapatla-chakravarthi">linkedin</a> · <a href="https://vanitascaesar1.github.io/resume.html">resume</a> &gt;&gt;<br>This profile will always be under construction.</sub></p>

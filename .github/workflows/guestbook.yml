@@ -1,0 +1,35 @@
+name: Guestbook
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: guestbook
+  cancel-in-progress: false
+
+jobs:
+  sign:
+    if: startsWith(github.event.issue.title, 'Guestbook')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: sign
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const sign = require('./scripts/guestbook.js');
+            return await sign({ github, context });
+
+      - if: steps.sign.outputs.result == 'true'
+        run: |
+          git config user.name "guestbook-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md guestbook.json
+          git commit -m "Guestbook: new signature (#${{ github.event.issue.number }})"
+          git push
