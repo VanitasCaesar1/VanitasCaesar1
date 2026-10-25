@@ -274,7 +274,7 @@ cards = [
     ("butterui", "ButterUI", "TypeScript", "#235a97", "Smooth screen transitions and native portals for React Native, packaged as agent skills for Claude Code, Cursor and Codex.", None, False),
     ("murkysql", "murkysql", "Rust", "#b7410e", "Vector search inside SQLite. HNSW and IVF indexes, quantization, SIMD. A SQLite extension written in Rust.", None, False),
     ("seer", "Seer", "Kotlin", "#6b3fb3", "A privacy-first Android keyboard. Suggestions stay on the device, and it ships with no internet permission at all.", None, False),
-    ("homepage", "My homepage", "HTML", "#e0004d", "My portfolio, hand-coded like it's 1997: starfield, WordArt, a hit counter and a guestbook. Treato, resume and more.", "visit >>", False),
+    ("homepage", "My homepage", "HTML", "#e0004d", "My portfolio, built like it's 1997: starfield, WordArt, a hit counter and a guestbook. Treato, resume and more.", "visit >>", False),
 ]
 for slug, title, lang, color, desc, extra, new in cards:
     (OUT / f"card-{slug}.svg").write_text(card(slug, title, lang, color, desc, extra, new))

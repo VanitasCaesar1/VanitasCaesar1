@@ -26,7 +26,7 @@ Hi! I'm Chakravarthi, from Kakinada, India. I build products end to end, from th
   <a href="https://github.com/VanitasCaesar1/ButterUI"><img src="assets/card-butterui.svg" width="49%" alt="ButterUI: screen transitions and native portals for React Native, as agent skills"></a>
   <a href="https://github.com/VanitasCaesar1/murkysql"><img src="assets/card-murkysql.svg" width="49%" alt="murkysql: vector search inside SQLite, in Rust"></a>
   <a href="https://github.com/VanitasCaesar1/seer"><img src="assets/card-seer.svg" width="49%" alt="Seer: a privacy-first Android keyboard with on-device suggestions"></a>
-  <a href="https://vanitascaesar1.github.io"><img src="assets/card-homepage.svg" width="49%" alt="My homepage: a portfolio hand-coded like it's 1997"></a>
+  <a href="https://vanitascaesar1.github.io"><img src="assets/card-homepage.svg" width="49%" alt="My homepage: a portfolio built like it's 1997"></a>
 </p>
 
 ## Powered by
