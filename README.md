@@ -40,9 +40,7 @@ Open an issue titled **Guestbook: your message** and a GitHub Action writes you 
 <p><a href="https://github.com/VanitasCaesar1/VanitasCaesar1/issues/new?title=Guestbook%3A%20&body=Write%20your%20message%20in%20the%20title%20after%20%22Guestbook%3A%22.%20It%20shows%20up%20on%20my%20profile%2C%20so%20keep%20it%20friendly."><b>&gt;&gt; Sign the guestbook &lt;&lt;</b></a></p>
 
 <!-- GUESTBOOK:START -->
-| Visitor | Message | Signed |
-| --- | --- | --- |
-| [VanitasCaesar1](https://github.com/VanitasCaesar1) | testing the guestbook bot | 25 Oct 2026 |
+_No signatures yet. Be the first!_
 <!-- GUESTBOOK:END -->
 
 ---
