@@ -17,3 +17,5 @@ Open source:
 - [murkysql](https://github.com/VanitasCaesar1/murkysql): vector search for SQLite, in Rust
 
 Graduated (BCA) in April 2025. Open to founding-engineer, React Native / mobile and full-stack roles, remote. LinkedIn: [chintapatla-chakravarthi](https://www.linkedin.com/in/chintapatla-chakravarthi)
+
+My homepage, built like it's 1997: [vanitascaesar1.github.io](https://vanitascaesar1.github.io)
