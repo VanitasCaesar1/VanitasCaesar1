@@ -149,13 +149,13 @@ def hero():
     b += wordart(W / 2, py + 120, "Homepage!", 46)
     b += f'<text x="{W/2}" y="{py+156}" text-anchor="middle" class="mono" font-size="17" font-weight="bold" fill="#39ff14">full-stack + mobile engineer. co-founder/CTO @ Treato.</text>'
     # Blinking sticker
-    b += f'<g transform="translate({W-176} {py+20}) rotate(8)"><g class="blink"><rect width="132" height="30" fill="#ff2bd6" stroke="#000" stroke-width="2"/><text x="66" y="21" text-anchor="middle" class="px" font-size="15" fill="#fff">OPEN TO WORK!</text></g></g>'
+    b += f'<g transform="translate({W-176} {py+20}) rotate(8)"><g class="blink"><rect width="132" height="30" fill="#ff2bd6" stroke="#000" stroke-width="2"/><text x="66" y="21" text-anchor="middle" class="px" font-size="15" fill="#fff">NOW BUILDING!</text></g></g>'
     # Under-construction stripe on the left
     b += f'<g transform="translate(26 {py+18}) rotate(-8)"><defs><pattern id="hz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="16" fill="#ffde00"/><rect x="8" width="8" height="16" fill="#141414"/></pattern></defs><rect width="158" height="30" fill="url(#hz)" stroke="#000"/><rect x="6" y="6" width="146" height="18" fill="#ffde00"/><text x="79" y="20" text-anchor="middle" class="px" font-size="11" fill="#000">UNDER CONSTRUCTION</text></g>'
     # Marquee
     mq_y = py + ph - 34
     b += f'<rect x="9" y="{mq_y}" width="{W-18}" height="28" fill="{NAVY}"/>'
-    msg = "*** Thanks for stopping by! *** I build apps, APIs and the servers under them *** Open to founding-engineer, React Native and full-stack roles *** Sign my guestbook below! "
+    msg = "*** Thanks for stopping by! *** I build apps, APIs and the servers under them *** Building Treato, care for Indian families, doctors and clinics *** Sign my guestbook below! "
     mw = 1300
     b += f'<defs><clipPath id="mqc"><rect x="9" y="{mq_y}" width="{W-18}" height="28"/></clipPath></defs>'
     b += (

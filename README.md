@@ -1,4 +1,4 @@
-<a href="https://vanitascaesar1.github.io"><img src="assets/hero.svg" width="100%" alt="Welcome to Chakravarthi's Homepage! A 1997 Netscape window: full-stack and mobile engineer, co-founder and CTO at Treato, open to work."></a>
+<a href="https://vanitascaesar1.github.io"><img src="assets/hero.svg" width="100%" alt="Welcome to Chakravarthi's Homepage! A 1997 Netscape window: full-stack and mobile engineer, co-founder and CTO at Treato, building it full time."></a>
 
 <p align="center">
   <a href="https://vanitascaesar1.github.io"><b>Enter my homepage</b></a> ·
@@ -10,7 +10,7 @@
 
 Hi! I'm Chakravarthi, from Kakinada, India. I build products end to end, from the Rust service that signs you in to the app in your hand. Almost everything I write lives in private Treato repos, so on this page it shows up as private contributions.
 
-**Open to founding-engineer, React Native and full-stack roles**, remote or relocating.
+**Building Treato full time**: care for Indian families, doctors and clinics.
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=VanitasCaesar1&style=for-the-badge&color=000080&label=YOU+ARE+VISITOR" alt="Visitor counter"></p>
 
