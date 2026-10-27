@@ -1,4 +1,4 @@
-// Writes the commit count into the banners, the Treato card and its generator. Usage: node scripts/update-commits.mjs <count>
+// Writes the commit count into the Treato card and its generator. Usage: node scripts/update-commits.mjs <count>
 import { readFileSync, writeFileSync } from "node:fs";
 
 const n = Number(process.argv[2]);
@@ -21,8 +21,5 @@ edit("assets/treato.svg", [
   sentence,
   [/(count commits<\/text><text [^>]*>)[\d,]+\+?(<\/text>)/, `$1${exact}$2`],
 ]);
-for (const theme of ["light", "dark"]) {
-  edit(`assets/banner-${theme}.svg`, [[/(<tspan class="n" id="commits">)[\d,]+(<\/tspan>)/, `$1${exact}$2`]]);
-}
 edit("scripts/make_svgs.py", [sentence, [/\("commits", "[\d,]+\+?"\)/, `("commits", "${exact}")`]]);
 console.log(`commit counter: ${exact}`);
