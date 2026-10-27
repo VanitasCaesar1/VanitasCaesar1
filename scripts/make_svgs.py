@@ -208,10 +208,10 @@ def treato():
     b += bevel(8, 58, W - 16, H - 66)
     b += f'<text x="30" y="98" class="px" font-size="30" fill="{NAVY}">Treato</text>'
     b += f'<text x="30" y="124" class="mono" font-size="14" fill="#111">A care platform for India. Families, doctors and clinics</text>'
-    b += '<text x="30" y="143" class="mono" font-size="14" fill="#111">share one health record. I&#39;m co-founder, CTO and the</text>'
-    b += f'<text x="30" y="162" class="mono" font-size="14" fill="#111">only engineer: about 3,300 commits since March 2025.</text>'
+    b += '<text x="30" y="143" class="mono" font-size="14" fill="#111">share one health record. I&#39;m co-founder and CTO.</text>'
+    b += f'<text x="30" y="162" class="mono" font-size="14" fill="#111">We&#39;ve built it in-house: about 3,300 commits since March 2025.</text>'
     b += bevel(30, 180, 380, 120, fill="#05051c", inset=True)
-    for i, (k, v) in enumerate([("commits", "3,368"), ("apps", "4"), ("migrations", "~360"), ("engineers", "1")]):
+    for i, (k, v) in enumerate([("commits", "3,368"), ("apps live", "5"), ("migrations", "~360"), ("made in", "India")]):
         yy = 206 + i * 26
         b += f'<text x="46" y="{yy}" class="mono" font-size="14" fill="#39ff14">C:\\TREATO&gt; count {k}</text>'
         b += f'<text x="392" y="{yy}" text-anchor="end" class="px" font-size="16" fill="#ffde00">{v}</text>'
@@ -232,7 +232,7 @@ def treato():
         b += f'<text x="666" y="{yy}" class="mono" font-size="14" fill="#111">{escape(v)}</text>'
     b += bevel(W - 120, H - 44, 96, 26)
     b += f'<text x="{W-72}" y="{H-26}" text-anchor="middle" class="mono" font-size="13" fill="#000">OK</text>'
-    return svg(W, H, b, "Treato: a care platform for India. Co-founder, CTO and only engineer. React Native, Go, Rust, Elixir, LiveKit, Claude, Next.js, Tauri, Docker.")
+    return svg(W, H, b, "Treato: a care platform for India. I&#39;m co-founder and CTO. React Native, Go, Rust, Elixir, LiveKit, Claude, Next.js, Tauri, Docker.")
 
 
 def badges():
@@ -272,8 +272,6 @@ cards = [
     ("expo-hot-toast", "expo-hot-toast", "TypeScript", "#235a97", "The react-hot-toast API for Expo. Real Liquid Glass on iOS 26, Material 3 snackbars on Android, frosted glass on the web.", "try the demo >>", True),
     ("zvault", "ZVault", "Rust", "#b7410e", "A secrets manager that keeps API keys away from AI coding tools. AES-256-GCM, installed from a Homebrew tap.", None, False),
     ("butterui", "ButterUI", "TypeScript", "#235a97", "Smooth screen transitions and native portals for React Native, packaged as agent skills for Claude Code, Cursor and Codex.", None, False),
-    ("murkysql", "murkysql", "Rust", "#b7410e", "Vector search inside SQLite. HNSW and IVF indexes, quantization, SIMD. A SQLite extension written in Rust.", None, False),
-    ("seer", "Seer", "Kotlin", "#6b3fb3", "A privacy-first Android keyboard. Suggestions stay on the device, and it ships with no internet permission at all.", None, False),
     ("homepage", "My homepage", "HTML", "#e0004d", "My portfolio, built like it's 1997: starfield, WordArt, a hit counter and a guestbook. Treato, resume and more.", "visit >>", False),
 ]
 for slug, title, lang, color, desc, extra, new in cards:
