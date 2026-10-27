@@ -209,9 +209,9 @@ def treato():
     b += f'<text x="30" y="98" class="px" font-size="30" fill="{NAVY}">Treato</text>'
     b += f'<text x="30" y="124" class="mono" font-size="14" fill="#111">A care platform for India. Families, doctors and clinics</text>'
     b += '<text x="30" y="143" class="mono" font-size="14" fill="#111">share one health record. I&#39;m co-founder, CTO and the</text>'
-    b += f'<text x="30" y="162" class="mono" font-size="14" fill="#111">only engineer: about 3,700 commits since March 2025.</text>'
+    b += f'<text x="30" y="162" class="mono" font-size="14" fill="#111">only engineer: about 3,300 commits since March 2025.</text>'
     b += bevel(30, 180, 380, 120, fill="#05051c", inset=True)
-    for i, (k, v) in enumerate([("commits", "3,700+"), ("apps", "4"), ("migrations", "~360"), ("engineers", "1")]):
+    for i, (k, v) in enumerate([("commits", "3,368"), ("apps", "4"), ("migrations", "~360"), ("engineers", "1")]):
         yy = 206 + i * 26
         b += f'<text x="46" y="{yy}" class="mono" font-size="14" fill="#39ff14">C:\\TREATO&gt; count {k}</text>'
         b += f'<text x="392" y="{yy}" text-anchor="end" class="px" font-size="16" fill="#ffde00">{v}</text>'
