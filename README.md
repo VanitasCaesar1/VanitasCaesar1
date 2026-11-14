@@ -1,22 +1,22 @@
-<a href="https://vanitascaesar1.github.io"><img src="assets/hero.svg" width="100%" alt="Welcome to Chakravarthi's Homepage! A 1997 Netscape window: full-stack and mobile engineer, co-founder and CTO at Treato, building it full time."></a>
+<a href="https://vanitascaesar1.github.io"><img src="assets/hero.svg" width="100%" alt="Welcome to Chakravarthi's Homepage! A 1997 Netscape window: AI engineer at Treato."></a>
 
 <p align="center">
   <a href="https://vanitascaesar1.github.io"><b>Enter my homepage</b></a> ·
   <a href="https://vanitascaesar1.github.io/resume.html">Resume</a> ·
   <a href="https://www.linkedin.com/in/chintapatla-chakravarthi">LinkedIn</a> ·
-  <a href="mailto:cto@treatoapp.com">Email</a> ·
+  <a href="mailto:chakravarthi8a2ss@gmail.com">Email</a> ·
   <a href="#sign-my-guestbook">Sign my guestbook</a>
 </p>
 
 Hi! I'm Chakravarthi, from India. I build products end to end, from the Rust service that signs you in to the app in your hand. Almost everything I write lives in private Treato repos, so on this page it shows up as private contributions.
 
-**Building Treato full time**: care for Indian families, doctors and clinics.
+**AI engineer at Treato**: care for Indian families, doctors and clinics.
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=VanitasCaesar1&style=for-the-badge&color=000080&label=YOU+ARE+VISITOR" alt="Visitor counter"></p>
 
 ## What I'm building
 
-<a href="https://treato.cloud"><img src="assets/treato.svg" width="100%" alt="Treato: a care platform for India. I'm co-founder and CTO. React Native, Go, Rust, Elixir, LiveKit, Claude, Next.js, Tauri and Docker."></a>
+<a href="https://treato.cloud"><img src="assets/treato.svg" width="100%" alt="Treato: a care platform for India. I'm an AI engineer there. React Native, Go, Rust, Elixir, LiveKit, Claude, Next.js, Tauri and Docker."></a>
 
 ## Cool stuff I made
 
