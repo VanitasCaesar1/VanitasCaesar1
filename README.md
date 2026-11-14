@@ -1,4 +1,4 @@
-<a href="https://vanitascaesar1.github.io"><img src="assets/hero.svg" width="100%" alt="Welcome to Chakravarthi's Homepage! A 1997 Netscape window: full-stack engineer at Treato."></a>
+<a href="https://vanitascaesar1.github.io"><img src="assets/hero.svg" width="100%" alt="Welcome to Chakravarthi's Homepage! A 1997 Netscape window: full-stack engineer."></a>
 
 <p align="center">
   <a href="https://vanitascaesar1.github.io"><b>Enter my homepage</b></a> ·
@@ -8,15 +8,15 @@
   <a href="#sign-my-guestbook">Sign my guestbook</a>
 </p>
 
-Hi! I'm Chakravarthi, from India. I build products end to end, from system design and the Rust service that signs you in to the app in your hand. Almost everything I write lives in private Treato repos, so on this page it shows up as private contributions.
+Hi! I'm Chakravarthi, from India. I build products end to end, from system design and the Rust service that signs you in to the app in your hand. Most of what I wrote from 2024 to 2026 lives in private Treato repos, so on this page it shows up as private contributions.
 
-**Full-stack engineer at Treato**: React Native (Expo), TypeScript, Go and LLM agents, building care for Indian families, doctors and clinics. I took its software from 0 to 1.
+**Full-stack engineer, open to new roles**: React Native (Expo), TypeScript, Go and LLM agents. From October 2024 to November 2026 I built Treato, care for Indian families, doctors and clinics, taking its software from 0 to 1.
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=VanitasCaesar1&style=for-the-badge&color=000080&label=YOU+ARE+VISITOR" alt="Visitor counter"></p>
 
-## What I'm building
+## What I built
 
-<a href="https://treato.cloud"><img src="assets/treato.svg" width="100%" alt="Treato: a care platform for India. I'm a full-stack engineer there. React Native, Go, Rust, Elixir, LiveKit, Claude, Next.js, Tauri and Docker."></a>
+<a href="https://treato.cloud"><img src="assets/treato.svg" width="100%" alt="Treato: a care platform for India. I was a full-stack engineer there. React Native, Go, Rust, Elixir, LiveKit, Claude, Next.js, Tauri and Docker."></a>
 
 ## Cool stuff I made
 

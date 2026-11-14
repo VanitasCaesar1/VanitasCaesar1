@@ -147,7 +147,7 @@ def hero():
     b += stars(9, py + 3, W - 18, ph - 40, 140, 42)
     b += wordart(W / 2, py + 72, "Welcome to Chakravarthi's", 40)
     b += wordart(W / 2, py + 120, "Homepage!", 46)
-    b += f'<text x="{W/2}" y="{py+156}" text-anchor="middle" class="mono" font-size="17" font-weight="bold" fill="#39ff14">full-stack engineer @ Treato. apps + LLM agents.</text>'
+    b += f'<text x="{W/2}" y="{py+156}" text-anchor="middle" class="mono" font-size="17" font-weight="bold" fill="#39ff14">full-stack engineer. apps + LLM agents.</text>'
     # Blinking sticker
     b += f'<g transform="translate({W-176} {py+20}) rotate(8)"><g class="blink"><rect width="132" height="30" fill="#ff2bd6" stroke="#000" stroke-width="2"/><text x="66" y="21" text-anchor="middle" class="px" font-size="15" fill="#fff">NOW BUILDING!</text></g></g>'
     # Under-construction stripe on the left
@@ -155,7 +155,7 @@ def hero():
     # Marquee
     mq_y = py + ph - 34
     b += f'<rect x="9" y="{mq_y}" width="{W-18}" height="28" fill="{NAVY}"/>'
-    msg = "*** Thanks for stopping by! *** I build apps, APIs and the servers under them *** Building Treato, care for Indian families, doctors and clinics *** Sign my guestbook below! "
+    msg = "*** Thanks for stopping by! *** I build apps, APIs and the servers under them *** Built Treato, care for Indian families, doctors and clinics *** Sign my guestbook below! "
     mw = 1300
     b += f'<defs><clipPath id="mqc"><rect x="9" y="{mq_y}" width="{W-18}" height="28"/></clipPath></defs>'
     b += (
@@ -172,7 +172,7 @@ def hero():
     b += f'<rect x="{W-227}" y="{H-25}" width="144" height="16" fill="{NAVY}"/>'
     b += bevel(W - 76, H - 28, 70, 22, inset=True)
     b += f'<text x="{W-41}" y="{H-12}" text-anchor="middle" class="mono" font-size="12" fill="#000">100%</text>'
-    return svg(W, H, b, "Welcome to Chakravarthi's Homepage! Full-stack engineer at Treato.")
+    return svg(W, H, b, "Welcome to Chakravarthi's Homepage! Full-stack engineer.")
 
 
 def card(slug, title, lang, lang_color, desc, extra=None, new=False):
@@ -208,7 +208,7 @@ def treato():
     b += bevel(8, 58, W - 16, H - 66)
     b += f'<text x="30" y="98" class="px" font-size="30" fill="{NAVY}">Treato</text>'
     b += f'<text x="30" y="124" class="mono" font-size="14" fill="#111">A care platform for India. Families, doctors and clinics</text>'
-    b += '<text x="30" y="143" class="mono" font-size="14" fill="#111">share one health record. I&#39;m a full-stack engineer there.</text>'
+    b += '<text x="30" y="143" class="mono" font-size="14" fill="#111">share one health record. I was a full-stack engineer there.</text>'
     b += f'<text x="30" y="162" class="mono" font-size="14" fill="#111">We&#39;ve built it in-house: about 3,500 commits since March 2025.</text>'
     b += bevel(30, 180, 380, 120, fill="#05051c", inset=True)
     for i, (k, v) in enumerate([("commits", "3,560"), ("apps live", "5"), ("migrations", "~360"), ("made in", "India")]):
@@ -232,7 +232,7 @@ def treato():
         b += f'<text x="666" y="{yy}" class="mono" font-size="14" fill="#111">{escape(v)}</text>'
     b += bevel(W - 120, H - 44, 96, 26)
     b += f'<text x="{W-72}" y="{H-26}" text-anchor="middle" class="mono" font-size="13" fill="#000">OK</text>'
-    return svg(W, H, b, "Treato: a care platform for India. I&#39;m a full-stack engineer there. React Native, Go, Rust, Elixir, LiveKit, Claude, Next.js, Tauri, Docker.")
+    return svg(W, H, b, "Treato: a care platform for India. I was a full-stack engineer there. React Native, Go, Rust, Elixir, LiveKit, Claude, Next.js, Tauri, Docker.")
 
 
 def badges():
