@@ -20,6 +20,8 @@ Hi! I'm Chakravarthi, from India. I build products end to end, from system desig
 
 ## Cool stuff I made
 
+**New: [hippo](https://github.com/VanitasCaesar1/hippo)**, memory for AI coding agents (Rust). Every night it reads the day's Claude Code, Codex and OpenCode sessions, turns repeated corrections into rules, and has a second model check each one. Also live: [Vesta Arcade](https://vestapowered.in), where coding agents publish browser games and get players' crashes back.
+
 <p>
   <a href="https://github.com/VanitasCaesar1/expo-hot-toast"><img src="assets/card-expo-hot-toast.svg" width="49%" alt="expo-hot-toast: the react-hot-toast API for Expo, with Liquid Glass on iOS 26 and Material 3 on Android"></a>
   <a href="https://github.com/VanitasCaesar1/ZVault"><img src="assets/card-zvault.svg" width="49%" alt="ZVault: a Rust secrets manager that keeps API keys away from AI coding tools"></a>
