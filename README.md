@@ -8,9 +8,9 @@
   <a href="#sign-my-guestbook">Sign my guestbook</a>
 </p>
 
-Hi! I'm Chakravarthi, from India. I build products end to end, from the Rust service that signs you in to the app in your hand. Almost everything I write lives in private Treato repos, so on this page it shows up as private contributions.
+Hi! I'm Chakravarthi, from India. I build products end to end, from system design and the Rust service that signs you in to the app in your hand. Almost everything I write lives in private Treato repos, so on this page it shows up as private contributions.
 
-**Full-stack engineer at Treato**: care for Indian families, doctors and clinics.
+**Full-stack engineer at Treato**: React Native (Expo), TypeScript, Go and LLM agents, building care for Indian families, doctors and clinics. I took its software from 0 to 1.
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=VanitasCaesar1&style=for-the-badge&color=000080&label=YOU+ARE+VISITOR" alt="Visitor counter"></p>
 
